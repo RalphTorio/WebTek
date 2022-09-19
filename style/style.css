@@ -1,4 +1,4 @@
-/*Home CSS*/
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -24,6 +24,23 @@ li a:hover {
   background-color: #6a6fab;
 }
 
+/*Home CSS*/
+#home .content > p {
+  color: black;
+}
+
+#home .content #culture_App{
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Exploitation CSS*/
+#c_exp .content > *{
+  color: aquamarine;
+}
 /*About Us CSS*/
 
 .wrapper * {
@@ -48,6 +65,7 @@ li a:hover {
   color: #fff;
   margin-bottom: 25px;
 }
+
 .wrapper .our_team {
   display: flex;
   width: auto;
@@ -74,6 +92,7 @@ li a:hover {
   cursor: pointer;
   position: relative;
 }
+
 
 .wrapper .our_team .team_member .member_img img {
   border-radius: 100%;
