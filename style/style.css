@@ -1,4 +1,4 @@
-
+/*General css*/
 ul {
   list-style-type: none;
   margin: 0px;
@@ -24,12 +24,16 @@ li a:hover {
   background-color: #6a6fab;
 }
 
+.content {
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
 /*Home CSS*/
 #home .content > p {
   color: black;
 }
-
-#home .content #culture_App{
+#home .content #culture_App {
   padding: auto;
   display: block;
   margin-left: auto;
@@ -37,10 +41,22 @@ li a:hover {
   width: 50%;
 }
 
-/*Exploitation CSS*/
-#c_exp .content > *{
-  color: aquamarine;
+.content {
+  margin-right: 10px;
+  margin-left: 15px;
 }
+/*Exhange CSS*/
+
+/*Dominance CSS*/
+
+/*Exploitation CSS*/
+
+#c_exp .content > * {
+  color: blue;
+}
+
+/*Transcultural CSS*/
+
 /*About Us CSS*/
 
 .wrapper * {
@@ -89,10 +105,8 @@ li a:hover {
   margin: 0 auto;
   border-radius: 50%;
   padding: 5px;
-  cursor: pointer;
   position: relative;
 }
-
 
 .wrapper .our_team .team_member .member_img img {
   border-radius: 100%;
