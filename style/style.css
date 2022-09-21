@@ -1,4 +1,3 @@
-
 ul {
   list-style-type: none;
   margin: 0px;
@@ -8,6 +7,28 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navigation {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+.navigation a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+a.active,
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+/*
 .navigation li {
   float: left;
 }
@@ -23,8 +44,8 @@ li a {
 li a:hover {
   background-color: #6a6fab;
 }
-
-.content{
+*/
+.content {
   margin-top: 15px;
   margin-left: 250px;
   margin-right: 300px;
@@ -48,7 +69,7 @@ li a:hover {
   font-size: larger;
 }
 
-#home .content #culture_App{
+#home .content #culture_App {
   padding: auto;
   display: block;
   margin-left: auto;
@@ -57,7 +78,7 @@ li a:hover {
 }
 
 /*Exchange CSS*/
-#exchange .content > h1{
+#exchange .content > h1 {
   font-size: 50px;
   margin: 30px;
   text-align: center;
@@ -78,7 +99,7 @@ li a:hover {
 }
 
 /*Dominance CSS*/
-#dominance .content > h1{
+#dominance .content > h1 {
   font-size: 50px;
   margin: 30px;
   text-align: center;
@@ -90,22 +111,38 @@ li a:hover {
   font-size: larger;
 }
 
+#dominance .content .dominance_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 /*Exploitation CSS*/
-#c_exp .content > *{
+#c_exp .content > * {
   color: black;
   font-size: larger;
   margin: 15px;
   text-indent: 15px;
 }
 
-#c_exp .content > h1{
+#c_exp .content > h1 {
   font-size: 50px;
   margin: 30px;
   text-align: center;
 }
 
+#c_exp .content .exploitation_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 /*Transculturation CSS*/
-#transculturation .content > h1{
+#transculturation .content > h1 {
   font-size: 50px;
   margin: 30px;
   text-align: center;
@@ -116,7 +153,13 @@ li a:hover {
   text-indent: 15px;
   font-size: larger;
 }
-
+#transculturation .content .transculturation_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 /*About Us CSS*/
 
 .wrapper * {
@@ -172,7 +215,6 @@ li a:hover {
   cursor: pointer;
   position: relative;
 }
-
 
 .wrapper .our_team .team_member .member_img img {
   border-radius: 100%;
