@@ -20,11 +20,18 @@ li a {
   text-decoration: none;
 }
 
-
-
-
 li a:hover {
   background-color: #6a6fab;
+}
+
+.content{
+  margin-top: 15px;
+  margin-left: 250px;
+  margin-right: 300px;
+  padding: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
 }
 
 /*Home CSS*/
@@ -46,7 +53,7 @@ li a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 /*Exchange CSS*/
@@ -62,6 +69,13 @@ li a:hover {
   font-size: larger;
 }
 
+#exchange .content #C_Exchange {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
 /*Dominance CSS*/
 #dominance .content > h1{
@@ -75,7 +89,6 @@ li a:hover {
   text-indent: 15px;
   font-size: larger;
 }
-
 
 /*Exploitation CSS*/
 #c_exp .content > *{
@@ -104,7 +117,6 @@ li a:hover {
   font-size: larger;
 }
 
-
 /*About Us CSS*/
 
 .wrapper * {
@@ -115,7 +127,7 @@ li a:hover {
 }
 
 .AboutUs {
-  background-color: rgb(212, 212, 212);
+  background-color: white;
 }
 
 .wrapper {
@@ -126,7 +138,7 @@ li a:hover {
 .wrapper h1 {
   font-family: "Yatra One", cursive;
   font-size: 48px;
-  color: #fff;
+  color: black;
   margin-bottom: 25px;
 }
 
@@ -138,18 +150,22 @@ li a:hover {
 }
 
 .wrapper .our_team .team_member {
-  width: 250px;
+  height: 400px;
+  width: 300px;
   margin: 5px;
-  background: #fff;
+  background: whitesmoke;
   padding: 20px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
 }
 
 .wrapper .our_team .team_member .member_img {
   background: black;
-  max-width: 190px;
   width: 100%;
-  height: 160px; /*to be adjust pr remove*/
-  width: 160px;
+  height: 210px; /*to be adjust pr remove*/
+  width: 210px;
   margin: 0 auto;
   border-radius: 50%;
   padding: 5px;
@@ -160,24 +176,24 @@ li a:hover {
 
 .wrapper .our_team .team_member .member_img img {
   border-radius: 100%;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .wrapper .our_team .team_member h3 {
   text-transform: uppercase;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 23px;
+  line-height: 23px;
   letter-spacing: 2px;
   margin: 15px 0 0;
 }
 
 .wrapper .our_team .team_member span {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .wrapper .our_team .team_member p {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 19px;
   list-style-type: 20px;
 }
