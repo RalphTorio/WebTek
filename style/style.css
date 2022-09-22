@@ -72,6 +72,10 @@ li a:hover {
   font-size: larger;
 }
 
+#home .content li {
+  font-style: italic;
+}
+
 #home .content #culture_App {
   padding: auto;
   display: block;
@@ -142,7 +146,7 @@ li a:hover {
   width: 60%;
 }
 
-#c_exp .content #exp_sample{
+#c_exp .content #exp_sample {
   padding: auto;
   display: block;
   margin-left: auto;
@@ -248,7 +252,7 @@ li a:hover {
   list-style-type: 20px;
 }
 
-#about_info{
+#about_info {
   padding: 20px;
   margin: 50px 150px 50px 150px;
   border-style: dashed;
