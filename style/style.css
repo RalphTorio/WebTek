@@ -1,3 +1,5 @@
+/*FORMAL CSS*/
+
 @font-face {
   font-family: Mont;
   src: url(Montserrat-Regular_0);
@@ -12,7 +14,9 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation {
+.header .navigation {
+  position: sticky;
+  top: 0;
   border-style: solid;
   border-width: thin;
   border-color: rgb(0, 0, 0);
@@ -35,48 +39,39 @@ a:hover {
   border: 1px solid white;
   transition: 0.5s;
 }
-/*
-.navigation li {
-  float: left;
+
+button{
+  display: none;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #6a6fab;
-}
-*/
 .content {
-  margin: 15px 280px 15px 280px;
+  margin: 15px auto 15px auto;
   padding: 20px;
+  max-width: 70%;
   border-style: solid;
   border-width: thin;
   border-color: black;
+  font-size: 16px;
+  overflow: auto;
 }
 
 .content p {
   text-indent: 50px;
 }
 
-/*Home CSS*/
-
-#home .content > h1 {
+.content #first_p > h1 {
   font-size: 50px;
-  margin: 30px;
+  margin: 5px auto 5px auto;
   text-align: center;
 }
 
-#home .content > * {
+.content * {
   color: black;
   margin: 15px;
-  font-size: 16px;
+  padding: 5px;
 }
+
+/*Home CSS*/
 
 #home .content li {
   font-style: italic;
@@ -91,17 +86,6 @@ li a:hover {
 }
 
 /*Exchange CSS*/
-#exchange .content > h1 {
-  font-size: 50px;
-  margin: 30px;
-  text-align: center;
-}
-
-#exchange .content * {
-  color: black;
-  margin: 15px;
-  font-size: larger;
-}
 
 #exchange .content #C_Exchange {
   padding: auto;
@@ -126,16 +110,6 @@ li a:hover {
 }
 
 /*Dominance CSS*/
-#dominance .content > h1 {
-  font-size: 50px;
-  margin: 30px;
-  text-align: center;
-}
-#dominance .content > * {
-  color: black;
-  margin: 15px;
-  font-size: larger;
-}
 
 #dominance .content .dominance_img {
   padding: auto;
@@ -153,17 +127,6 @@ li a:hover {
 }
 
 /*Exploitation CSS*/
-#c_exp .content > * {
-  color: black;
-  font-size: larger;
-  margin: 15px;
-}
-
-#c_exp .content > h1 {
-  font-size: 50px;
-  margin: 30px;
-  text-align: center;
-}
 
 #c_exp .content .exploitation_img {
   padding: auto;
@@ -182,16 +145,7 @@ li a:hover {
 }
 
 /*Transculturation CSS*/
-#transculturation .content > h1 {
-  font-size: 50px;
-  margin: 30px;
-  text-align: center;
-}
-#transculturation .content > * {
-  color: black;
-  margin: 15px;
-  font-size: larger;
-}
+
 #transculturation .content .transculturation_img {
   padding: auto;
   display: block;
