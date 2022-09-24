@@ -1,8 +1,7 @@
 /*FORMAL CSS*/
 
 @font-face {
-  font-family: Mont;
-  src: url(Montserrat-Regular_0);
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -11,7 +10,7 @@ ul {
   padding: 5px;
   overflow: hidden;
   background-color: #333c4d;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .header .navigation {
@@ -50,19 +49,22 @@ button {
   max-width: 70%;
   border-style: solid;
   border-width: thin;
-  border-color: black;
+  border-color: rgb(126, 126, 126);
   font-size: 16px;
   overflow: auto;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .content p {
   text-indent: 50px;
+  color: rgb(104, 104, 104);
 }
 
 .content #first_p > h1 {
   font-size: 50px;
   margin: 5px auto 5px auto;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .content * {
@@ -75,6 +77,7 @@ button {
 
 #home .content li {
   font-style: italic;
+  color: rgb(104, 104, 104);
 }
 
 #home .content #culture_App {
@@ -174,7 +177,7 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .AboutUs {
@@ -187,7 +190,7 @@ button {
 }
 
 .wrapper h1 {
-  font-family: "Yatra One", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   color: black;
   margin-bottom: 25px;
@@ -208,12 +211,12 @@ button {
   padding: 20px 10px;
   border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: rgb(219, 219, 219);
   border-radius: 10px;
 }
 
 .wrapper .our_team .team_member .member_img {
-  background: black;
+  background: rgb(138, 138, 138);
   width: 100%;
   height: 210px; /*to be adjust pr remove*/
   width: 210px;
@@ -244,29 +247,51 @@ button {
 
 .wrapper .our_team .team_member p {
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 14px;
   list-style-type: 20px;
+  color: rgb(104, 104, 104);
+}
+
+.wrapper .our_team .team_member a{
+  font-size: 14px;
 }
 
 #about_info {
   padding: 20px;
-  margin: 50px 150px 50px 150px;
+  margin: 50px auto 50px auto;
+  max-width: 70%;
   border-style: dashed;
   border-width: 2px;
+  color: rgb(87, 87, 87);
+}
+
+.wrapper #references{
+  padding: 20px;
+  margin: 10px 150px 50px 150px;
+  border-style: dashed;
+  border-width: 2px;
+  word-wrap: break-word;
 }
 /*References*/
 
 .Ref .content li {
+  padding: 20px;
+  margin: 10px auto 50px auto;
+  max-width: 70%;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: rgb(126, 126, 126);
+  word-wrap: break-word;
+  font-family: 'Montserrat', sans-serif;
   list-style-type: none;
-  margin: 0px;
-  padding: 5px;
-  overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 126, 126);
 }
 
 .Ref h1 {
   font-size: 48px;
   color: black;
   margin-bottom: 25px;
+  margin-left: 25px;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }
