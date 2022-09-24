@@ -1,0 +1,622 @@
+/*FORMAL CSS*/
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333c4d;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.header .navigation {
+  position: sticky;
+  top: 0;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(0, 0, 0);
+}
+
+.navigation a {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+
+a.active,
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+button {
+  display: none;
+}
+
+.content {
+  margin: 15px auto 15px auto;
+  padding: 20px;
+  max-width: 70%;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(126, 126, 126);
+  font-size: 16px;
+  overflow: auto;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.content p {
+  text-indent: 50px;
+  color: rgb(104, 104, 104);
+}
+
+.content #first_p > h1 {
+  font-size: 50px;
+  margin: 5px auto 5px auto;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.content * {
+  color: black;
+  margin: 15px;
+  padding: 5px;
+}
+
+/*Home CSS*/
+
+#home .content li {
+  font-style: italic;
+  color: rgb(104, 104, 104);
+}
+
+#home .content #culture_App {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#home .content .third_p .CA {
+  background-color: white;
+}
+
+/*Exchange CSS*/
+
+#exchange .content #C_Exchange {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#exchange .sampleA {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#exchange .sampleB {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Dominance CSS*/
+
+#dominance .content .dominance_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#dominance .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Exploitation CSS*/
+
+#c_exp .content .exploitation_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#c_exp .content #exp_sample {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Transculturation CSS*/
+
+#transculturation .content .transculturation_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.trcA {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.trcB {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*About Us CSS*/
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.AboutUs {
+  background-color: white;
+}
+
+.wrapper {
+  margin: 60px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.wrapper .our_team {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .our_team .team_member {
+  height: 400px;
+  width: 300px;
+  margin: 5px;
+  background: whitesmoke;
+  padding: 20px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
+.wrapper .our_team .team_member .member_img {
+  background: rgb(138, 138, 138);
+  width: 100%;
+  height: 210px; /*to be adjust pr remove*/
+  width: 210px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.wrapper .our_team .team_member .member_img img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.wrapper .our_team .team_member h3 {
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  margin: 15px 0 0;
+}
+
+.wrapper .our_team .team_member span {
+  font-size: 15px;
+}
+
+.wrapper .our_team .team_member p {
+  margin-top: 20px;
+  font-size: 14px;
+  list-style-type: none;
+  color: rgb(104, 104, 104);
+}
+
+.wrapper .our_team .team_member a {
+  font-size: 14px;
+}
+
+#about_info {
+  padding: 20px;
+  margin: 50px auto 50px auto;
+  max-width: 70%;
+  border-style: dashed;
+  border-width: 2px;
+  color: rgb(87, 87, 87);
+}
+
+.wrapper #references {
+  padding: 20px;
+  margin: 10px 150px 50px 150px;
+  border-style: dashed;
+  border-width: 2px;
+  word-wrap: break-word;
+}
+/*References*/
+
+.Ref .content li {
+  padding: 20px;
+  margin: 10px auto 50px auto;
+  max-width: 70%;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: rgb(126, 126, 126);
+  word-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+  color: rgb(59, 59, 59);
+}
+
+.Ref h1 {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Ref .content .References {
+  background-color: white;
+}
+/*Mobile View CSS*/
+@media only screen and (max-width: 500px) {
+  @font-face {
+    font-family: Mont;
+    src: url(Montserrat-Regular_0);
+  }
+  button {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+  }
+  header {
+    border-style: solid;
+    border-width: thin;
+    background-color: rgb(126, 126, 126);
+  }
+
+  .navigation {
+    border-style: solid;
+    border-width: thin;
+    background-color: #8a2be2;
+  }
+
+  .navigation a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+  }
+
+  #nav {
+    display: none;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: min-content;
+  }
+
+  .navigation li:hover {
+    background-color: #0099cc;
+  }
+
+  a.active,
+  a:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+  }
+
+  .navigation li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #8a2be2;
+  }
+
+  body {
+    background-image: url("../image/rainbow.gif");
+    background-repeat: repeat;
+  }
+
+  .content {
+    padding: 20px;
+    color: white;
+  }
+
+  .content * {
+    color: white;
+  }
+
+  .content div {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .content p {
+    text-indent: 50px;
+    color: white;
+  }
+
+  /*Home CSS*/
+  #home .content > * {
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+  }
+
+  #home .content > h1 {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+  }
+
+  #home .content li {
+    font-style: italic;
+    color: white;
+  }
+
+  #home .content #culture_App {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  /*Exchange CSS*/
+  #exchange .content > h1 {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+  }
+
+  #exchange .content * {
+    color: white;
+    margin: 15px;
+    font-size: larger;
+  }
+
+  #exchange .content #C_Exchange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  /*Dominance CSS*/
+  #dominance .content > h1 {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+  }
+  #dominance .content > * {
+    color: white;
+    margin: 15px;
+    font-size: larger;
+  }
+
+  #dominance .content .dominance_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  /*Exploitation CSS*/
+  #c_exp .content > * {
+    color: white;
+    font-size: larger;
+    margin: 15px;
+  }
+
+  #c_exp .content > h1 {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+  }
+
+  #c_exp .content .exploitation_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  #c_exp .content #exp_sample {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  /*Transculturation CSS*/
+  #transculturation .content > h1 {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+  }
+  #transculturation .content > * {
+    color: white;
+    margin: 15px;
+    font-size: larger;
+  }
+
+  #transculturation .content .transculturation_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  /*About Us CSS*/
+
+  .wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .AboutUs {
+    background-color: white;
+  }
+
+  .wrapper {
+    margin: 60px;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .wrapper h1 {
+    font-family: "Yatra One", cursive;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 25px;
+  }
+
+  .wrapper .our_team {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .our_team .team_member {
+    height: 400px;
+    width: 300px;
+    margin: 5px;
+    background: #e6e6e6;
+    padding: 20px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+  .wrapper .our_team .team_member .member_img {
+    background: black;
+    width: 100%;
+    height: 210px; /*to be adjust pr remove*/
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .wrapper .our_team .team_member .member_img img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+  }
+
+  .wrapper .our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 15px 0 0;
+  }
+
+  .wrapper .our_team .team_member span {
+    font-size: 15px;
+  }
+
+  .wrapper .our_team .team_member p {
+    margin-top: 20px;
+    font-size: 19px;
+    list-style-type: none;
+  }
+
+  #about_info {
+    padding: 20px;
+    border-style: dashed;
+    border-width: 2px;
+    color: white;
+  }
+  .Ref .content li {
+    padding: 20px;
+    margin: 10px auto 50px auto;
+    max-width: 70%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(126, 126, 126);
+    word-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    color: black;
+  }
+
+  .Ref h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
+}
