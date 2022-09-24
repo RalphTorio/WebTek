@@ -40,7 +40,7 @@ a:hover {
   transition: 0.5s;
 }
 
-button{
+button {
   display: none;
 }
 
@@ -253,4 +253,20 @@ button{
   margin: 50px 150px 50px 150px;
   border-style: dashed;
   border-width: 2px;
+}
+/*References*/
+
+.Ref .content li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Ref h1 {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 25px;
+  justify-content: center;
 }
