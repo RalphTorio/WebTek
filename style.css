@@ -1,0 +1,227 @@
+/*FORMAL CSS*/
+
+@font-face {
+  font-family: Mont;
+  src: url(Montserrat-Regular_0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333c4d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-color: rgb(0, 0, 0);
+}
+
+body{
+  background-color:beige
+}
+
+.navigation a {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+
+a.active,
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+button{
+  display: none;
+}
+
+.content {
+  margin: 15px auto 15px auto;
+  padding: 20px;
+  max-width: 70%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  font-size: 16px;
+  overflow: auto;
+}
+
+.content p {
+  text-indent: 50px;
+}
+
+.content #first_p > h1 {
+  font-size: 50px;
+  margin: 5px auto 5px auto;
+  text-align: center;
+}
+
+.content * {
+  color: black;
+  margin: 15px;
+  padding: 5px;
+}
+
+
+/*Home CSS*/
+
+#home .content li {
+  font-style: italic;
+}
+
+#home .content #culture_App {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Exchange CSS*/
+
+#exchange .content #C_Exchange {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Dominance CSS*/
+
+#dominance .content .dominance_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Exploitation CSS*/
+
+
+#c_exp .content .exploitation_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#c_exp .content #exp_sample {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*Transculturation CSS*/
+#transculturation .content > h1 {
+  font-size: 50px;
+  margin: 30px;
+  text-align: center;
+}
+
+#transculturation .content .transculturation_img {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+/*About Us CSS*/
+
+.wrapper * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.wrapper {
+  margin: 60px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "Yatra One", cursive;
+  font-size: 48px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.wrapper .our_team {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .our_team .team_member {
+  height: 400px;
+  width: 300px;
+  margin: 5px;
+  background: whitesmoke;
+  padding: 20px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.wrapper .our_team .team_member .member_img {
+  background: black;
+  width: 100%;
+  height: 210px; /*to be adjust pr remove*/
+  width: 210px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.wrapper .our_team .team_member .member_img img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.wrapper .our_team .team_member h3 {
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  margin: 15px 0 0;
+}
+
+.wrapper .our_team .team_member span {
+  font-size: 15px;
+}
+
+.wrapper .our_team .team_member p {
+  margin-top: 20px;
+  font-size: 14px;
+  list-style-type: 20px;
+}
+
+#about_info {
+  padding: 20px;
+  margin: 50px 150px 50px 150px;
+  font-size: 14px;
+  border-style: dashed;
+  border-width: 2px;
+}
