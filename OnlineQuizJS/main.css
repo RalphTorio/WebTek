@@ -1,0 +1,29 @@
+.content{
+    margin: 15px auto 15px auto;
+    padding: 20px;
+    max-width: 70%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(126, 126, 126);
+    font-size: 16px;
+    overflow: auto;
+    
+}
+
+#main-header{
+    text-align: center;
+}
+
+.ctrls{
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.content .ctrls .btn #back *{
+    padding: 15px 32px;
+    display: inline-block;
+}
